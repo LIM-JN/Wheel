@@ -76,12 +76,12 @@ function spinWheel() {
   theWheel.rotationAngle = 0;
 
   const options = [
-    { label: '5% 할인쿠폰',  chance: 80 },
-    { label: '커피 기프티콘', chance: 3.33 },
-    { label: '10% 할인쿠폰', chance: 10 },
-    { label: '15% 할인쿠폰', chance: 0.07 },
-    { label: '한번 더',  chance: 1.27 },
-    { label: '3일 무료체험', chance: 5.33 }
+    { label: '5% 할인쿠폰',  chance: 30 },
+    { label: '커피 기프티콘', chance: 10 },
+    { label: '10% 할인쿠폰', chance: 20 },
+    { label: '15% 할인쿠폰', chance: 5 },
+    { label: '한번 더',  chance: 5 },
+    { label: '3일 무료체험', chance: 30 }
   ];
 
   const rand = Math.random() * 100;
